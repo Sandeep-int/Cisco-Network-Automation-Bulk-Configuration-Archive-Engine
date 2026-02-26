@@ -2,3 +2,12 @@
 
 ## Overview
 - In modern enterprise environments, manual configuration management is a bottleneck and a significant source of operational risk. I developed this project to automate the secure retrieval of running-config data from multiple network nodes simultaneously. Built with Python, Netmiko, and Linux (WSL), this engine serves as a foundation for scalable Network Programmability.
+
+## Key Features
+- Data-Driven Inventory Management: Separates automation logic from device credentials using an external devices.txt file, allowing for seamless scaling across hundreds of network nodes.
+
+- Operational Resilience: Features robust error handling with try-except blocks to ensure the script continues its execution queue even if individual devices encounter timeouts or authentication failures.
+
+- Dynamic Timestamping: Implemented automated versioning (YYYY-MM-DD_HH-MM) for every backup file, preventing data overwrites and ensuring a clear historical audit trail for disaster recovery.
+
+- Encrypted Transport: Utilizes the SSH protocol via the Netmiko abstraction layer to ensure all configuration data is securely encrypted during transit from the device to the archive.
