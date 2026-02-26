@@ -36,7 +36,8 @@
 
 
 ## Evidence
-1. Project Architecture & Environment:(assert/code_view.png)
+1. Project Architecture & Environment:
+[assert/code_view.png]
 - Overview of the Linux-based development workspace, showing the automated directory structure and timestamped configuration archives.
 
 2. Automation Logic & Inventory Management:
