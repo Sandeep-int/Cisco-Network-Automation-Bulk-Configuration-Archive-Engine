@@ -37,17 +37,24 @@
 
 ## Evidence
 1. Project Architecture & Environment:
-![Project Structure](assert/structure.png)
 - Overview of the Linux-based development workspace, showing the automated directory structure and timestamped configuration archives.
 
+![Project Structure](assert/structure.png)
+
+
 2. Automation Logic & Inventory Management:
-![Source Code Implementation](assert/code_view.png)
 - The Python implementation utilizing the Netmiko library to process an external device inventory, featuring dynamic file naming and secure SSH connectivity.
 
+![Source Code Implementation](assert/code_view.png)
+
+
 3. Real-Time Execution & Logging:
-![Live Execution Output](assert/execution.png)
 - Terminal output demonstrating the engine successfully connecting to live Cisco IOS-XE nodes, capturing configurations, and handling exceptions gracefully.
 
+![Live Execution Output](assert/execution.png)
+
+
 4. Configuration Data Validation:
-![Configuration Verification](assert/verification.png)
 - Verification of the final output, showing retrieved Cisco IOS-XE system configurations successfully captured and archived programmatically.
+
+![Configuration Verification](assert/verification.png)
